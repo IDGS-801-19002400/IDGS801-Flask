@@ -11,7 +11,7 @@ def index():
 
 @app.route("/menu")
 def menu():
-    return "<h1>Hola desde menú</h2>"
+    return "<h1>Hola desde menú</h1>"
 
 @app.route("/user/<string:user>")
 def user(user):
